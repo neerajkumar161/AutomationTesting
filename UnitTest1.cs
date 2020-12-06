@@ -85,7 +85,7 @@ namespace NUnitTestProject
         }
 
         // Test case for wrong phone number input
-        /*[Test]
+        [Test]
         public void Test3()
         {
             webDriver.Url = "file:///C:/Assignment%20Final/newcar.html";
@@ -198,7 +198,7 @@ namespace NUnitTestProject
             {
                 Assert.Fail();
             }
-        }*/
+        }
 
         [OneTimeTearDown]
         public void CloseTest()
